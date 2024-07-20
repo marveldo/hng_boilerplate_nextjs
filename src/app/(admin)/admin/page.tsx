@@ -1,4 +1,4 @@
-import AdminLayout from "./layout";
+import AdminLayout from "~/components/superadminlayout"
 import InvitePeoplebUTTON from "~/components/formlayout";
 
 const page = () => {

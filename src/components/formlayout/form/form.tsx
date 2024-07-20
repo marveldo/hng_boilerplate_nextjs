@@ -31,11 +31,11 @@ const InvitePeople = () => {
 
     return (<>
 
-   <Button onClick={Clickbutton} className="w-[118px] h-10 px-4 py-2 bg-orange-500 rounded-md justify-center items-center gap-2.5 inline-flex">
+   <Button data-testid="button" onClick={Clickbutton} className="w-[118px] h-10 px-4 py-2 bg-orange-500 rounded-md justify-center items-center gap-2.5 inline-flex">
       <div className="text-white text-sm font-medium font-['Inter'] leading-normal">Invite people</div>
    </Button>
         
-        <div className={`w-[100vw] h-[100vh] ${showform ? '' : 'hidden'} z-100  absolute top-0 flex justify-center bg-neutral-900 bg-opacity-25 pt-[149px]`}>
+        <div data-testid="modaldiv" className={`w-[100vw] h-[100vh] ${showform ? '' : 'hidden'} z-50 inset-0 fixed top-0 flex justify-center bg-neutral-900 bg-opacity-25 pt-[149px]`}>
 
 
 
