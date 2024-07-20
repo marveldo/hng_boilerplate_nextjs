@@ -35,7 +35,7 @@ const InvitePeople = () => {
       <div className="text-white text-sm font-medium font-['Inter'] leading-normal">Invite people</div>
    </Button>
         
-        <div className={`w-[100vw] h-[100vh] ${showform ? '' : 'hidden'}  absolute top-0 flex justify-center bg-neutral-900 bg-opacity-25 pt-[149px]`}>
+        <div className={`w-[100vw] h-[100vh] ${showform ? '' : 'hidden'} z-100  absolute top-0 flex justify-center bg-neutral-900 bg-opacity-25 pt-[149px]`}>
 
 
 

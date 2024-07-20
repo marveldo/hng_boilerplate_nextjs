@@ -1,15 +1,16 @@
-import AdminLayout from "~/components/superadminlayout";
+import AdminLayout from "./layout";
 import InvitePeoplebUTTON from "~/components/formlayout";
+
 const page = () => {
   return <AdminLayout>
     <div>
     Dashboard
+    {/* <InvitePeoplebUTTON/> */}
     </div>
     
-    <InvitePeoplebUTTON/>
+   
     </AdminLayout>;
     
-   
-};
+}
 
 export default page;
